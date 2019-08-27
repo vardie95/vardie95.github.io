@@ -1,0 +1,436 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Portafolio de Programacion web </title>
+		<meta 	name= "author" content="Luis Diego Vargas">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+</head>
+<body>
+	<header>		
+		<h1 id="headerh1">Portafolio de trabajos del curso de Desarrollo Web</h1>
+		<h4 id="headerh4">IC8057 Introdución al desarrollo de aplicaciones Web, IISem 2019</h4>
+		<div id = "menu">
+			<nav class="menu">
+			<ul id="ulMenu">
+				<li><a href=""><a/></li>
+				<li><a href="main.html">Principal<a/></li>
+				<li class="active" ><a href="practicas.html">Practicas<a/></li>
+				<li><a href="tareas.html">Tareas<a/></li>
+				<li><a href="#">Laboratorios<a/></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+	<div id="html">
+		<h1>Semana 3: Sintaxis HTML5 y CSS3</h1>
+		<p>En esta seccion encontraran sintaxis de HTML básico, HTML5 y CSS </p>
+		<nav class="menu2">
+			<ul>
+				<li><a href="#htmlSintax">HTML<a/></li>
+				<li><a href="#html5Sintax">HTML5<a/></li>
+				<li><a href="#CSSSintax">CSS<a/></li>
+			</ul>
+		</nav>
+	
+		<div id="htmlSintax">
+			<h1>HTML</h1>
+			<table id="htmlTable">
+				<tr>
+					<th>Nombre</th>
+					<th>Proposito</th>
+					<th>Sintaxis</th>
+					<th>Atributos</th>
+					<th>Ejemplo</th>
+				</tr>
+				<tr>
+					<td>P</td>
+					<td>Denota una estructura para los diferentes parrafos</td>
+					<td>&ltp&gt &lt/p&gt</td>
+					<td>Align: left, right,center, justify</td>
+					<td>&ltp&gt Esto es un parrafo de una pagina web que contiene gran cantidad de información &lt/p&gt</td>
+				</tr>
+				<tr>
+					<td>h#</td>
+					<td>Desde el &lth1&gt hasta el &lth6&gt se utiliza para titulos </td>
+					<td>&lth#&gt &lt/h#&gt  </td>
+					<td>Align: left, right,center, justify</td>
+					<td>&lth1&gtTitulo 1&lt/h1&gt <br>   &lth1&gtTitulo 2&lt/h1&gt </td>
+				</tr>
+
+				<tr>
+					<td>div</td>
+					<td>Se utiliza como division en un documento de HTML</td>
+					<td>&ltdiv&gt &lt/div&gt</td>
+					<td>Align: left, right,center, justify</td>
+					<td>&ltdiv&gt <br> &lth1&gtTitulo 1&lt/h1&gt <br>  &ltp&gt Esto es un parrafo &lt/p&gt  <br> &lt/div&gt </td>
+				</tr>
+				<tr>
+					<td>ol</td>
+					<td>Define una lista de elementos ordenados</td>
+					<td>&ltol&gt &lt/ol&gt</td>
+					<td>Compact <br> Reversed <br> Start <br> Type </td>
+					<td>&ltol&gt<br> &ltli&gt Coffee &lt/li&gt  <br>&lt/ol&gt</td>
+				</tr>
+				<tr>
+					<td>body</td>
+					<td>Define todo el cuerpo del documento HTML </td>
+					<td>&ltbody&gt &lt/body&gt</td>
+					<td>Alink <br> Background <br> Bgcolor <br> Link <br> text </td>
+					<td>&ltbody&gt El cuerpo del documento &lt/body&gt</td>
+				</tr>
+				<tr>
+					<td>img</td>
+					<td>Se utiliza para insertar una image en un documento HTML</td>
+					<td>&ltimg&gt </td>
+					<td>Align <br> Src <br> Width <br> Height <br> Alt</td>
+					<td>&ltimg src="smiley.gif" alt="Smiley face" height="42" width="42"    &gt</td>
+				</tr>
+				
+				<tr>
+
+					<td>ul</td>
+					<td>Se utliza para definir una lista no ordenada</td>
+					<td>&ltul&gt &lt/ul&gt</td>
+					<td>Compact <br> Type </td>
+					<td>&ltul&gt<br> &ltli&gt Coffee &lt/li&gt <br>&lt/ul&gt </td>
+				</tr>
+				<tr>
+					<td>li</td>
+					<td>Define un elemento de una lista</td>
+					<td>&ltli&gt &lt/li&gt</td>
+					<td>Type <br> Value</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>a</td>
+					<td>Se utiliza para definir un link a otra pagina</td>
+					<td>&lta&gt &lt/a&gt</td>
+					<td>Download <br> charset <br> href <br> media <br> Entre otros </td>
+					<td>&lta&gt href="https://www.tec.ac.cr/">Página Tecnologico &lt/a&gt</td>
+				</tr>
+				<tr>
+					<td>table</td>
+					<td>Se utiliza para definir una tabla en un documento html</td>
+					<td>&lttable&gt &lt/table&gt</td>
+					<td>Comandos internos: tr, th, td </td>
+					<td>&lttable&gt <br>&lttr&gt <br> &ltth&gt Nombre &lt/th&gt <br>&lt/tr&gt <br>&lt/table&gt</td>
+				</tr>
+				<tr>
+					<td>th</td>
+					<td>Define un encabezado de una tabla</td>
+					<td>&ltth&gt &lt/th&gt</td>
+					<td></td>
+					<td>&lttable&gt <br>&lttr&gt <br> &ltth&gt Nombre &lt/th&gt <br>&lt/tr&gt <br>&lt/table&gt</td>
+				</tr>
+				<tr>
+					<td>tr</td>
+					<td>Define una fila de una tabla </td>
+					<td>&lttr&gt &lt/tr&gt</td>
+					<td></td>
+					<td>&lttable&gt <br>&lttr&gt <br> &ltth&gt Nombre &lt/th&gt <br>&lt/tr&gt <br>&lt/table&gt</td>
+				</tr>
+				<tr>
+					<td>td</td>
+					<td>Define una celda de una tabla</td>
+					<td>&lttd&gt &lt/td&gt</td>
+					<td></td>
+					<td>lttable&gt <br>&lttr&gt <br> &ltth&gt Nombre &lt/th&gt <br>&lt/tr&gt  <br>&lttr&gt <br> &lttd&gt Diego &lt/td&gt <br>&lt/tr&gt <br>&lt/table&gt</td>
+				</tr>
+				<tr>
+					<td>hr</td>
+					<td>Define un break en un documento HTML</td>
+					<td>&lthr&gt</td>
+					<td></td>
+					<td>&ltdiv&gt <br> &lth1&gtTitulo 1&lt/h1&gt <br> <br>&lthr&gt  <br> <br>  &ltp&gt Esto es un parrafo &lt/p&gt  <br> &lt/div&gt</td>
+				</tr>
+				<tr>
+					<td>span</td>
+					<td>Se utiliza para agrupar elementos en un documento HTML</td>
+					<td>&ltspan&gt &lt/span&gt</td>
+					<td></td>
+					<td>&ltp&gt Esto es un parrafo &ltspan style="color:blue" &gt Azul  &lt/span&gt &lt/p&gt </td>
+				</tr>
+
+			</table>
+
+		</div>
+		<div id="html5Sintax">
+			<h1>HTML5</h1>
+			<table id="htmlTable">
+				<tr>
+					<th>Nombre</th>
+					<th>Proposito</th>
+					<th>Sintaxis</th>
+					<th>Atributos</th>
+					<th>Ejemplo</th>
+				</tr>
+				<tr>
+					<td>article</td>
+					<td>Se utiliza para especificar un contenido independiente de una pagina. <br> Ejemplo:  Blog post, comentarios, forum post</td>
+					<td>&ltarticle&gt &lt/article&gt</td>
+					<td>Soporta los atributos globales</td>
+					<td>&ltarticle&gt &ltdiv&gt <br> &lth1&gtTitulo 1&lt/h1&gt <br>  &ltp&gt Esto es un parrafo &lt/p&gt  <br> &lt/div&gt <br> &lt/article&gt</td>
+				</tr>
+				<tr>
+					<td>aside</td>
+					<td>Define un contenido al lado del contenido en donde fue puesto</td>
+					<td>&ltaside &gt &lt/aside&gt</td>
+					<td>Soporta los atributos globales </td>
+					<td>&ltaside &gt  <br> &lth1&gtTitulo 1&lt/h1&gt <br>  &ltp&gt Esto es un parrafo &lt/p&gt   <br> &lt/aside&gt</td>
+				</tr>
+				<tr>
+					<td>details</td>
+					<td>Especifica detalles adicionales que el usuario puede ver o esconder</td>
+					<td>&ltdetails &gt &lt/details&gt</td>
+					<td>Open: Especifica que los detalles deben estar visibles</td>
+					<td>&ltdetails &gt  <br> &lth1&gtTitulo 1&lt/h1&gt <br>  &ltp&gt Esto es un parrafo &lt/p&gt   <br> &lt/details&gt</td>
+				</tr>
+				<tr>
+					<td>figcaption</td>
+					<td>Se utiliza para definir la leyenda de una figura o imagen </td>
+					<td>&ltfigcaption &gt &lt/figcaption&gt</td>
+					<td>Atributos globales</td>
+					<td>&ltimg src="smiley.gif" alt="Smiley face" height="42" width="42"    &gt <br> &ltfigcaption Cara sonriente &gt &lt/figcaption&gt </td>
+				</tr>
+				<tr>
+					<td>figure</td>
+					<td>Se utiliza para contener imagenes, diagramas, codigo</td>
+					<td>&ltfigure &gt &lt/figure &gt</td>
+					<td>Atributos globales</td>
+					<td>&ltfigure&gt <br> &lt  img src="smiley.gif" alt="Smiley face" height="42" width="42"    &gt <br>  &lt/figure &gt</td>
+				</tr>
+				<tr>
+					<td>ruby</td>
+					<td>Hace referencia a una anotacion en ruby</td>
+					<td>&ltruby &gt &lt/ruby &gt</td>
+					<td>Atributos globales</td>
+					<td>&ltruby&gt <br> &ltrt &gt ㄏㄢˋ &lt/rt &gt <br> &lt/ruby &gt</td>
+				</tr>
+				<tr>
+					<td>wbr</td>
+					<td>Se utiliza para hacer un break de linea. Word Break Opportunity</td>
+					<td>&ltwbr &gt</td>
+					<td>Atributos Globales</td>
+					<td>&ltp&gt Para aprender AJAX, se debe estar familializado con XML &ltwbr &gt HTPP &ltwbr &gt &lt/p&gt</td>
+				</tr>
+				<tr>
+					<td>canvas</td>
+					<td>Se utiliza para dibujar elementos graficos, via Java Script</td>
+					<td>&ltcanvas &gt &lt/canvas &gt</td>
+					<td>Atributos Globales</td>
+					<td>&ltcanvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;" &gt &lt/canvas &gt</td>
+				</tr>
+				<tr>
+					<td>mark</td>
+					<td>Se utiliza para marcar un texto </td>
+					<td>&ltmark &gt &lt/mark &gt</td>
+					<td>Atributos Globales</td>
+					<td> &ltp&gt Esto es un parrafo &ltmark &gt marcado &lt/mark &gt &lt/p&gt</td>
+				</tr>
+				<tr>
+					<td>progress</td>
+					<td>Se utiliza junto con Java Script para desplegar el proceso de una tarea</td>
+					<td>&ltprogress &gt &lt/progress &gt</td>
+					<td>Max <br> value</td>
+					<td>&ltprogress value="22" max="100" &gt  &lt/progress &gt </td>
+				</tr>
+				<tr>
+					<td>output</td>
+					<td>Se utiliza para mostrar el resultado de algun calculo usando Java Script</td>
+					<td>&ltoutput &gt &lt/ouput &gt</td>
+					<td>For <br> form <br> name </td>
+					<td>&ltoutput name="result" for="a b" &gt &lt/ouput &gt</td>
+				</tr>
+				<tr>
+					<td>video</td>
+					<td>Se utiliza para agregar un video en un HTML</td>
+					<td>&ltvideo &gt &lt/video &gt</td>
+					<td>Source <br> Track</td>
+					<td>&ltvideo width="320" height="240" autoplay &gt <br> &ltsource src="movie.mp4" type="video/mp4" &gt <br>  &lt/video&gt</td>
+				</tr>
+				<tr>
+					<td>time</td>
+					<td>Se utiliza para agregar el tiempo en un documento HTML</td>
+					<td>&lttime &gt &lt/time &gt</td>
+					<td>datatime</td>
+					<td>&lttime &gt 10:00 &lt/time &gt</td>
+				</tr>
+				<tr>
+					<td>datalist</td>
+					<td>Se utiliza para especificar una lista pre definido para un &ltimput &gt </td>
+					<td>&ltdatalist &gt &lt/datalist &gt</td>
+					<td>Atributos globales</td>
+					<td>&ltdatalist list = "Browser"&gt &lt/datalist &gt</td>
+				</tr>
+				<tr>
+					<td>meter</td>
+					<td>Se utiliza para definir una escala de medida con un rango conocido</td>
+					<td>&ltmeter &gt &lt/meter &gt</td>
+					<td>form <br> high <br> low <br>max <br> min <br> optimun <br>value</td>
+					<td>&ltmeter value="2" min="0" max="10" &gt 2 out of 10 &lt/meter &gt</td>
+				</tr>
+			</table>
+		</div>
+		<div id="CSSSintax">
+			<h1>CSS</h1>
+			<table id="htmlTable">
+				<tr>
+					<th>Nombre</th>
+					<th>Proposito</th>
+					<th>Sintaxis</th>
+					<th>Atributos</th>
+					<th>Ejemplo</th>
+				</tr>
+				<tr>
+					<td>float</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>width</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>background-color</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>content</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>clear</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>color</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>font-family</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>font-size</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>font-weight</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>line-height</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>text-align</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>list-style-type</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>padding</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>display</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>border-collapse</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>text-decoration</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>border-image</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>align-content</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>column-count</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>cursor</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+
+</body>
+</html>

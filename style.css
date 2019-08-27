@@ -1,0 +1,110 @@
+.column {
+  float: left;
+  width: 75%;
+  background-color: #c2c2c2;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #c2c2c2
+}
+
+header {
+  background-color: rgb(0, 0, 43);
+
+}
+
+#headerh1 { 
+
+  color: #ffffff; 
+  font-family: 'Lato', sans-serif; 
+  font-size: 54px; 
+  font-weight: 300; 
+  line-height: 58px; 
+  margin: 0 0 30px;
+  text-align: center;
+   }
+
+#headerh4 { 
+
+  color: #ffffff; 
+  font-family: 'Lato', sans-serif; 
+  font-size: 30px; 
+  font-weight: 300; 
+  line-height: 30px; 
+  margin: 0 0 30px;
+  text-align: center;
+   }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.menu  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ .menu li {
+  float: left;
+}
+
+.menu  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.menu2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #bfbfbf;
+}
+
+.menu2 li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.menu2 li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: rgb(0,0,50);
+  color: white;
+}
+
+
+
+
+
+
