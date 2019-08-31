@@ -1,11 +1,11 @@
 
 //Arrays de datos:
 
-meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 
 lasemana=["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"]
 
-diassemana=["lun","mar","mie","jue","vie","sab","dom"];
+diassemana=["Lun","Mar","Mie","Jue","Vie","Sab","Dom"];
 
 //Tras cargarse la página ...
 window.onload = function() {
@@ -81,7 +81,7 @@ function escribirdias() {
                  celda=fila.getElementsByTagName("td")[j];
                  celda.innerHTML=midia;
                  //Recuperar estado inicial al cambiar de mes:
-                 celda.style.backgroundColor="#9bf5ff";
+                 celda.style.backgroundColor="#E0E0E1";
                  celda.style.color="#492736";
                  //domingos en rojo
                  if (j==6) { 
