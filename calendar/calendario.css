@@ -6,9 +6,6 @@ h1 { text-align: center; padding: 0.5em; }
 #calendario { border: 8px solid black  ; max-width: 700px; 
               background-color:#fffafa; text-align: center; }
 
-
-
-
 #diasc { border: 1px solid black; border-collapse: 
          separate; border-spacing: 4px; }
 #diasc th,#diasc td { font: normal 14pt arial; width: 70px; height: 30px; }
@@ -24,6 +21,7 @@ h1 { text-align: center; padding: 0.5em; }
 #buscafecha select, #buscafecha input  { background-color: #9bf5ff; 
             color: #3E548E; font: bold 10pt arial;  }
 #buscafecha [type=text]  { text-align: center; }
+
 #buscafecha  [type=button] { cursor: pointer; }
 
              
